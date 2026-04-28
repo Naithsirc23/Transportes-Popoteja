@@ -3,13 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transportes Popoteja | Carga Pesada</title>
+    <title>Transportes Popoteja | Logística y Carga Pesada</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-50">
-    <div id="app">
-        <h1 class="text-3xl font-bold text-center mt-20">Transportes Popoteja</h1>
-        <p class="text-center">Cargando experiencia optimizada...</p>
-    </div>
+<body class="bg-gray-50 text-gray-800">
+    <nav class="bg-blue-900 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter">TRANSPORTES POPOTEJA</span>
+            <div class="space-x-6 hidden md:block">
+                <a href="#servicios" class="hover:text-blue-300">Servicios</a>
+                <a href="#nosotros" class="hover:text-blue-300">Nosotros</a>
+                <a href="#contacto" class="bg-orange-500 px-4 py-2 rounded font-bold">Cotizar</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative bg-blue-800 text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Soluciones Logísticas de Carga Pesada</h1>
+            <p class="text-xl mb-8 text-blue-100">Transportamos tus proyectos con seguridad y eficiencia en todo el Perú.</p>
+            <a href="https://wa.me/your-number" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full text-lg font-bold transition">
+                <i class="fab fa-whatsapp mr-2"></i> Contactar por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+                    <i class="fas fa-truck-moving text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Transporte Nacional</h3>
+                    <p class="text-gray-600">Cobertura total en rutas nacionales con flota moderna.</p>
+                </div>
+                <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+                    <i class="fas fa-boxes text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Carga Especializada</h3>
+                    <p class="text-gray-600">Manejo de carga sobredimensionada y materiales frágiles.</p>
+                </div>
+                <div class="p-10 border rounded-xl shadow-sm hover:shadow-md transition">
+                    <i class="fas fa-clock text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Entregas Express</h3>
+                    <p class="text-gray-600">Optimización de tiempos para entregas críticas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10 text-center">
+        <p>&copy; 2026 CIR System - Transportes Popoteja. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
